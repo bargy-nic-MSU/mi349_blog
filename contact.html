@@ -6,11 +6,45 @@
     <title>Contact</title>
 </head>
 <body>
-    <main>
+    <header>
         <h1>Contact Me</h1>
 
-        <a href="index.html">Index Page</a>
-        <a href="about.html">About me Page</a>
-    </main>
+        <ul>
+            <li><a href="index.html">Index Page</a></li>
+            <li><a href="about.html">About me Page</a></li>
+        </ul>
+
+        <div>Have any questions, fill out the form and we will try and get back to you!</div>
+
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+            </div>
+
+            <div>
+                <label for="email-address">Email:</label>
+                <input type="text" id="email-address">
+            </div>
+
+            <div>
+                <label for="drop-down">Reason for Contact</label>
+                <select id="drop-down">
+                    <option value="hi">Just saying hi</option>
+                    <option value="contractor">I am looking for a contractor.</option>
+                    <option value="interview">I am interested in an interview</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="Open-yap">Anything else you want to say?</label>
+                <textarea id="Open-yap"></textarea>
+            </div>
+
+            <input type="submit">
+        </form>
+
+
+    </header>
 </body>
 </html>
