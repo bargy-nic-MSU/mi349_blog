@@ -1,20 +1,30 @@
 /* Add screen styles below */
-body{
+html {
+    background: #e3e3e3;
+}
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    background: #fff;
 }
 
 h1{
-
+    font-size: 3em;
+    margin: 0;
 }
 
-p {
-
+div {
+    line-height: 1.4em;
 }
 
 #blog {
-
+    border-top: 1px dotted #ccc;
 }
 
 .blog-post {
-    
+    border-bottom: 1px dotted #ccc;
 }
