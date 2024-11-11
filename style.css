@@ -46,6 +46,7 @@ p {
     position: sticky;
     top: 50px;
     color: #343434;
+    float: right;
 }
 
 #blog {
@@ -68,7 +69,6 @@ section {
 }
 
 header {
-    background:lightgray ;
     padding: 20px;
     margin: 10px;
 }
@@ -85,6 +85,5 @@ a[li] {
 }
 
 .me {
-    float: right;
-    margin-left: 10px;
+    float: left;
 }
